@@ -6,7 +6,7 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome()
-time.sleep(5)
+time.sleep(2)
 driver.get("http://www.baidu.com")
 time.sleep(5)
 driver.find_element_by_id("kw").send_keys("测试环境")
